@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* I do not know how to get my css to connect with my html - they worked when i had them together
+but stopped went i put them in separate files*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+
+	}
+	body {
+		background-image: url(./images/webb.png);
+
+	}
+	div.container {
+		background: #7cc576
+	}
+
+	desktop-nav {
+		float: none;
+		width :calc (100%-100px);
+		display: flex;
+		justify-content: 
+		space-between :;
+		max-width :600px; 
+	}
+
+	.box {
+		padding :15px;
+		width: 90px ;
+		background:#6dcff6;
+	}
+	.box-2 { 
+		padding :15px;
+		width: 90px ;
+		background:#6dcff6;
+			
+	}
+
+	.box-3 {
+		padding :15px;
+		width: 100px ;
+		background:#6dcff6;
+		border: #6dcff6
+
+	}
+	.box-4 {
+		padding :15px;
+		width: 250px ;
+		height:300;
+		background:#6dcff6;
+
+	}
+	main.box-7 {
+		padding :15px;
+		width:90px;
+		box-sizing :border-box;
+	}
+	.column {
+  		float: left;
+  		width: 33.33%;
+  		padding: 5px;
+	}
+  		
+	.row-after {
+  		content: "";
+  		clear: both;
+  		display: table;
+	}
+		
+	aside {
+		padding: 15px;
+		width: 35%;
+		float:right; 
+		box-sizing :border-box;
+	}
+
+
+
+	footer.box-5 {
+		background :#7cc576;
+		padding :35px;
+		width :100%;
+		box-sizing :border-box;
+	}
+
+}
+
+
