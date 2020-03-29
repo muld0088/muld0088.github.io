@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="utf-8">
+	<title>LIB2024 - QA</title>
+</head>
+<body>
+	<h1>LIB2024- QA</h1>
+	<!-- Qus/Ans list begins -->
+	<ol>
+		<!-- Qus 1 -->
+		<li>
+			<p>
+				<strong>Qus: </strong>
+				What are the three componets of Web?
+			</p>
+			<p>
+				<strong>Ans: </strong>
+				HTML, CSS and JavaScript 
+			</p>
+		</li>
+		<!-- Qus 2 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Define version control and give one example.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. ex github
+			</p>
+		</li>
+			<!-- Qus 3 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				What tag is used to create the title of a web page? Give an example.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				< title >  < /title > example : < title > My Blog < /title>
+			</p>
+		</li>
+			<!-- Qus 4 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				What tag is used to create a paragraph in html? Give an example.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				< p > < /p> example : < p > This is my example paragraph < /p>
+			</p>
+		</li>
+			<!-- Qus 5 -->
+		<li>
+			<p>
+				<strong>Ans:</strong>
+				Identify the odd one from these tags: < span >, < p >, < a >, < i > and state the reason?
+			</p>
+			<p>
+				<strong>Qus:</strong>
+				the < i > tag because deals with changing how words look by making them italicized
+			</p>
+		</li>
+			<!-- Qus 6 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				What are the tags required to create a navigation list in HTML? 
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				You begin wih the nav tag < nav > < /n>, next come the < ul > or < ol> tags to create an unordered or an ordered list, the last tag is the < li > which is for the list items 
+			</p>
+		</li>
+			<!-- Qus 7 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				What element is used to create images? Name its attributes.  
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				< img> and the attritubes are scr and alt 
+			</p>
+		</li>
+			<!-- Qus 8 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Identify the odd one from these tags: < table >, < tr >, < b >, < td > and state the reason
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				The odd one in the tags is the < b > because is not a tag that is needed to create a table in html 
+			</p>
+		</li>
+			<!-- Qus 9 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Give an example of color picker input. 
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				< label for="favcolor"> Pick your favorite color:</ label>
+				< input type="color" id="favcolor" name="favcolor" value="#942192" >
+
+			</p>
+		</li>
+			<!-- Qus 10 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				What is the use of name and value attributes? Give two examples 
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				Name : that the name of the attribute is ex < button >
+				Value: what that element does < button >
+				< button name="color" type="submit" value="fav_color">Purple</button >
+			</p>
+		</li>
+			<!-- Qus 11 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Give an example of inline style.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				< style type="text/css"> < /style > <br>
+				< h1 style='color=purple;'>Welcome to my Blog < /h1>
+
+			</p>
+		</li>
+			<!-- Qus 12 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				 How would you link an external style sheet? Give example. 
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				you do this by placing a < link > tag in the head of the document <br>
+				< link rel="stylesheet" type="text/css" href="style.css" >
+
+			</p>
+		</li>
+			<!-- Qus 13 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px. 
+
+
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				block {
+				width: 200px;
+				height 200px;
+				margin: 0 auto;
+				padding-top: 200px;
+				position: absolute;
+			}
+			</p>
+		</li>
+			<!-- Qus 14 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Create CSS keyframes block called "spin" that rotates an element. 
+				spin
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				{
+ 				 	transform: rotate(0deg);
+
+ 				 	transform: rotate (360deg);
+
+				}
+
+			</p>
+		</li>
+			<!-- Qus 15 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Create CSS animation block to rotate an element that has the following properties : class "rotate-me" It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
+
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				div { class = "rotate-me"
+				witdth: 100px;
+				height: 100px;
+				background: green;
+				position: relative;
+				transition-timing-function: linear;
+				animation: spin o.5s 5;
+
+			}
+				
+
+			</p>
+		</li>
+			<!-- Qus 16 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				How would you include create an alert with string "I love JavaScript" using JavaScript?
+
+
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				'alert("I Love JavaScript");'
+			</p>
+		</li>
+
+  </ol>
+</body>
+</html>
